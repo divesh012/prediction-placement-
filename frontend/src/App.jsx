@@ -29,7 +29,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://prediction-placement.onrender.com",
         {
           ssc_p: Number(formData.ssc_p),
           hsc_p: Number(formData.hsc_p),
